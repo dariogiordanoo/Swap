@@ -1,0 +1,23 @@
+void swap(void){
+	extern int a;
+	extern int b;
+	int tmp = a;
+	a = b;
+	b = tmp;
+
+}
+
+void swap1(int a, int b){
+	int tmp = a;
+	a = b;
+	b = tmp;
+
+}
+
+
+void swap2(int *a, int *b){
+	int tmp = *a;
+	*a = *b;
+	*b = tmp;
+    
+}
